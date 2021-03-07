@@ -63,4 +63,4 @@ proxy_set_header   X-Forwarded-For    $proxy_add_x_forwarded_for;
 ```
 
 _______
-_This package is developed by TAPPYSOFT LTD, Cyprus_
+[TAPPYSOFT LTD, Cyprus](https://tappysoft.com/)
