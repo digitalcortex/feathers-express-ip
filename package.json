@@ -1,6 +1,6 @@
 {
   "name": "feathers-express-ip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expose client IP address to your Feathers application",
   "main": "lib/index.js",
   "directories": {
