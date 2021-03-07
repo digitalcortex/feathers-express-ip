@@ -1,5 +1,5 @@
 {
-  "name": "feathers-express-ip",
+  "name": "@tappysoft/feathers-express-ip",
   "version": "1.0.0",
   "description": "Expose client IP address to your Feathers application",
   "main": "lib/index.js",
