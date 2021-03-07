@@ -39,6 +39,13 @@ app.configure(express.rest());
 app.use(feathersIp('ip'));
 ```
 
+Read provided IP address in Feathers hook:
+```typescript
+(context: HookContext) => {
+  console.log(context.params.ip);
+}
+```
+
 ## Using with reverse proxy
 Reverse proxies not only hide IP address of your app from the user, they also hide the user's IP address from the app.
 If you want to get user's IP address while using reverse proxy such as Nginx, you will need configure your Nginx server accordingly.
