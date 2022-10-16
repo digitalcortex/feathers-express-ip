@@ -16,7 +16,11 @@ yarn add feathers-express-ip
 ## Example usage
 Import package
 ```typescript
+// Typescript
 import { feathersIp, feathersIpSocketIO } from 'feathers-express-ip';
+
+// Javascript
+const { feathersIp, feathersIpSocketIO } = require('feathers-express-ip');
 ```
 
 For working with socket connections:
@@ -61,6 +65,3 @@ proxy_set_header   X-Real-IP          $remote_addr;
 proxy_set_header   X-Forwarded-Proto  $scheme;
 proxy_set_header   X-Forwarded-For    $proxy_add_x_forwarded_for;
 ```
-
-_______
-[TAPPYSOFT LTD, Cyprus](https://tappysoft.com/)
